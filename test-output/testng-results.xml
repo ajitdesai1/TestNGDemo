@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11503" started-at="2020-08-24T20:17:46Z" finished-at="2020-08-24T20:17:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11503" started-at="2020-08-24T20:17:46Z" finished-at="2020-08-24T20:17:58Z">
+      <class name="com.test.TestNGBasics">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="setUp" is-config="true" duration-ms="12" started-at="2020-08-24T16:17:46Z" finished-at="2020-08-24T16:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="launchBrowser" is-config="true" duration-ms="6332" started-at="2020-08-24T16:17:46Z" finished-at="2020-08-24T16:17:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="enterURL" is-config="true" duration-ms="1784" started-at="2020-08-24T16:17:53Z" finished-at="2020-08-24T16:17:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterURL -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="login" is-config="true" duration-ms="2134" started-at="2020-08-24T16:17:55Z" finished-at="2020-08-24T16:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="validateTitle" duration-ms="11" started-at="2020-08-24T16:17:57Z" finished-at="2020-08-24T16:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-24T16:17:57Z" finished-at="2020-08-24T16:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="ClearCoockies()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="ClearCoockies" is-config="true" duration-ms="424" started-at="2020-08-24T16:17:57Z" finished-at="2020-08-24T16:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearCoockies -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@2928854b]" name="closeBrowser" is-config="true" duration-ms="799" started-at="2020-08-24T16:17:57Z" finished-at="2020-08-24T16:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.TestNGBasics -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
