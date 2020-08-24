@@ -46,7 +46,7 @@ public class TestNGBasics {
 	public void validateTitle() {
 		String title = driver.getTitle();
 		System.out.println("Check Title of the page: "+title);
-		Assert.assertEquals(title, "Google1");
+		Assert.assertEquals(title, "Google");
 	}	
 	@AfterMethod
 	public void logout() {

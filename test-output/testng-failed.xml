@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGDemo Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test name="TestNGDemo Test Cases(failed)">
+    <classes>
+      <class name="com.test.TestNGBasics">
+        <methods>
+          <include name="logout"/>
+          <include name="launchBrowser"/>
+          <include name="validateTitle"/>
+          <include name="setUp"/>
+          <include name="enterURL"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+          <include name="ClearCoockies"/>
+        </methods>
+      </class> <!-- com.test.TestNGBasics -->
+    </classes>
+  </test> <!-- TestNGDemo Test Cases(failed) -->
+</suite> <!-- Failed suite [TestNGDemo Test Automation Test Suite] -->
