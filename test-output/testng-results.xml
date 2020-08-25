@@ -1,41 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10453" started-at="2020-08-24T22:17:51Z" finished-at="2020-08-24T22:18:02Z">
+  <suite name="Default suite" duration-ms="11601" started-at="2020-08-25T03:09:16Z" finished-at="2020-08-25T03:09:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10453" started-at="2020-08-24T22:17:51Z" finished-at="2020-08-24T22:18:02Z">
+    <test name="Default test" duration-ms="11601" started-at="2020-08-25T03:09:16Z" finished-at="2020-08-25T03:09:27Z">
       <class name="com.test.TestNGBasics">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="setUp" is-config="true" duration-ms="11" started-at="2020-08-24T18:17:51Z" finished-at="2020-08-24T18:17:51Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="setUp" is-config="true" duration-ms="11" started-at="2020-08-24T23:09:16Z" finished-at="2020-08-24T23:09:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="launchBrowser" is-config="true" duration-ms="5965" started-at="2020-08-24T18:17:51Z" finished-at="2020-08-24T18:17:57Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="launchBrowser" is-config="true" duration-ms="5782" started-at="2020-08-24T23:09:16Z" finished-at="2020-08-24T23:09:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="enterURL" is-config="true" duration-ms="1189" started-at="2020-08-24T18:17:57Z" finished-at="2020-08-24T18:17:59Z">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="enterURL" is-config="true" duration-ms="1118" started-at="2020-08-24T23:09:22Z" finished-at="2020-08-24T23:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="login" is-config="true" duration-ms="2182" started-at="2020-08-24T18:17:59Z" finished-at="2020-08-24T18:18:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="validateTitle()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="validateTitle" duration-ms="11" started-at="2020-08-24T18:18:01Z" finished-at="2020-08-24T18:18:01Z">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.test.TestNGBasics@229d10bd]" name="validateTitle" duration-ms="15" started-at="2020-08-24T23:09:23Z" finished-at="2020-08-24T23:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-24T18:18:01Z" finished-at="2020-08-24T18:18:01Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="login" is-config="true" duration-ms="0" started-at="2020-08-24T23:09:23Z" finished-at="2020-08-24T23:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="logout" is-config="true" duration-ms="1" started-at="2020-08-24T23:09:23Z" finished-at="2020-08-24T23:09:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="ClearCoockies()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="ClearCoockies" is-config="true" duration-ms="312" started-at="2020-08-24T18:18:01Z" finished-at="2020-08-24T18:18:01Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="login" is-config="true" duration-ms="0" started-at="2020-08-24T23:09:23Z" finished-at="2020-08-24T23:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clickOnabout()[pri:2, instance:com.test.TestNGBasics@229d10bd]" name="clickOnabout" duration-ms="2578" started-at="2020-08-24T23:09:23Z" finished-at="2020-08-24T23:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnabout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-24T23:09:25Z" finished-at="2020-08-24T23:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="ClearCoockies()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="ClearCoockies" is-config="true" duration-ms="853" started-at="2020-08-24T23:09:25Z" finished-at="2020-08-24T23:09:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearCoockies -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="closeBrowser" is-config="true" duration-ms="768" started-at="2020-08-24T18:18:01Z" finished-at="2020-08-24T18:18:02Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="closeBrowser" is-config="true" duration-ms="1235" started-at="2020-08-24T23:09:26Z" finished-at="2020-08-24T23:09:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

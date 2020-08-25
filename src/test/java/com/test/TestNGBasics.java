@@ -22,9 +22,7 @@ public class TestNGBasics {
 	public void setUp() {
 		System.out.println("setUp the initial config");
 		System.setProperty("webdriver.chrome.driver", "D:\\EclipseInstallFolder\\Softwares\\chromedriver.exe");
-		
-				
-	}
+		}
 	@BeforeTest
 	public void launchBrowser() {
 		System.out.println("launch Browser");
@@ -39,20 +37,19 @@ public class TestNGBasics {
 	@BeforeMethod
 	public void login() throws InterruptedException {
 		System.out.println("enter login details");
-		driver.findElement(By.name("q")).sendKeys("Selenium");
-		Thread.sleep(2000);
 	}	
-	@Test
+	@Test (priority=1)
 	public void validateTitle() {
 		String title = driver.getTitle();
-		System.out.println("Check Title of the page: "+title);
+		System.out.println("Test1");
 		Assert.assertEquals(title, "Google");
 	}
-	@Test
+	@Test(priority=2)
 	public void clickOnabout() {
 		driver.findElement(By.xpath("//a[text()='About']")).click();
 		String title1 = driver.getTitle();
-		Assert.assertEquals(title1, "Google - About Google, Our Culture &amp; Company News");
+		System.out.println("Test2");
+		Assert.assertEquals(title1, "Google - About Google, Our Culture & Company News");
 	}	
 	@AfterMethod
 	public void logout() {
