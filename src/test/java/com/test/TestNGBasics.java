@@ -54,7 +54,7 @@ public class TestNGBasics {
 	@AfterMethod
 	public void logout() {
 		System.out.println("logout");
-		System.out.println("bye");
+		System.out.println("bye!!");
 	}	
 	@AfterClass
 	public void ClearCoockies() {
