@@ -48,7 +48,7 @@ public class TestNGBasics {
 	public void clickOnabout() {
 		driver.findElement(By.xpath("//a[text()='About']")).click();
 		String title1 = driver.getTitle();
-		System.out.println("Test2");
+		System.out.println("Test3");
 		Assert.assertEquals(title1, "Google - About Google, Our Culture & Company News");
 	}	
 	@AfterMethod

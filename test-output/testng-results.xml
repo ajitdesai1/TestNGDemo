@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNGDemo Test Automation Test Suite" duration-ms="12532" started-at="2020-08-26T19:43:24Z" finished-at="2020-08-26T19:43:36Z">
+  <suite name="Default suite" duration-ms="11393" started-at="2020-08-26T20:55:40Z" finished-at="2020-08-26T20:55:52Z">
     <groups>
     </groups>
-    <test name="TestNGDemo Test Cases" duration-ms="12532" started-at="2020-08-26T19:43:24Z" finished-at="2020-08-26T19:43:36Z">
+    <test name="Default test" duration-ms="11393" started-at="2020-08-26T20:55:40Z" finished-at="2020-08-26T20:55:52Z">
       <class name="com.test.TestNGBasics">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="setUp" is-config="true" duration-ms="10" started-at="2020-08-26T15:43:24Z" finished-at="2020-08-26T15:43:24Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="setUp" is-config="true" duration-ms="14" started-at="2020-08-26T16:55:40Z" finished-at="2020-08-26T16:55:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="launchBrowser" is-config="true" duration-ms="7138" started-at="2020-08-26T15:43:24Z" finished-at="2020-08-26T15:43:31Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="launchBrowser" is-config="true" duration-ms="5850" started-at="2020-08-26T16:55:40Z" finished-at="2020-08-26T16:55:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="enterURL" is-config="true" duration-ms="1329" started-at="2020-08-26T15:43:31Z" finished-at="2020-08-26T15:43:32Z">
+        <test-method status="PASS" signature="enterURL()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="enterURL" is-config="true" duration-ms="1367" started-at="2020-08-26T16:55:46Z" finished-at="2020-08-26T16:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterURL -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="login" is-config="true" duration-ms="1" started-at="2020-08-26T15:43:32Z" finished-at="2020-08-26T15:43:32Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="login" is-config="true" duration-ms="0" started-at="2020-08-26T16:55:48Z" finished-at="2020-08-26T16:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.test.TestNGBasics@29ee9faa]" name="validateTitle" duration-ms="18" started-at="2020-08-26T15:43:32Z" finished-at="2020-08-26T15:43:32Z">
+        <test-method status="PASS" signature="validateTitle()[pri:1, instance:com.test.TestNGBasics@229d10bd]" name="validateTitle" duration-ms="9" started-at="2020-08-26T16:55:48Z" finished-at="2020-08-26T16:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-26T15:43:32Z" finished-at="2020-08-26T15:43:32Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-26T16:55:48Z" finished-at="2020-08-26T16:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="login" is-config="true" duration-ms="1" started-at="2020-08-26T15:43:32Z" finished-at="2020-08-26T15:43:32Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="login" is-config="true" duration-ms="1" started-at="2020-08-26T16:55:48Z" finished-at="2020-08-26T16:55:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="clickOnabout()[pri:2, instance:com.test.TestNGBasics@29ee9faa]" name="clickOnabout" duration-ms="2280" started-at="2020-08-26T15:43:32Z" finished-at="2020-08-26T15:43:35Z">
+        <test-method status="PASS" signature="clickOnabout()[pri:2, instance:com.test.TestNGBasics@229d10bd]" name="clickOnabout" duration-ms="1998" started-at="2020-08-26T16:55:48Z" finished-at="2020-08-26T16:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnabout -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="logout" is-config="true" duration-ms="0" started-at="2020-08-26T15:43:35Z" finished-at="2020-08-26T15:43:35Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="logout" is-config="true" duration-ms="1" started-at="2020-08-26T16:55:50Z" finished-at="2020-08-26T16:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="ClearCoockies()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="ClearCoockies" is-config="true" duration-ms="946" started-at="2020-08-26T15:43:35Z" finished-at="2020-08-26T15:43:36Z">
+        <test-method status="PASS" signature="ClearCoockies()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="ClearCoockies" is-config="true" duration-ms="771" started-at="2020-08-26T16:55:50Z" finished-at="2020-08-26T16:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClearCoockies -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@29ee9faa]" name="closeBrowser" is-config="true" duration-ms="798" started-at="2020-08-26T15:43:36Z" finished-at="2020-08-26T15:43:36Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestNGBasics@229d10bd]" name="closeBrowser" is-config="true" duration-ms="1367" started-at="2020-08-26T16:55:50Z" finished-at="2020-08-26T16:55:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.test.TestNGBasics -->
-    </test> <!-- TestNGDemo Test Cases -->
-  </suite> <!-- TestNGDemo Test Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
